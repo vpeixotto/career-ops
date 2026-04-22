@@ -1,71 +1,69 @@
-# Career-Ops Profile Configuration
-# Copy this file to config/profile.yml and fill in your details.
-# This is the single source of truth for your personal data across all modes.
-
 candidate:
-  full_name: "Jane Smith"
-  email: "jane@example.com"
-  phone: "+1-555-0123"
-  location: "San Francisco, CA"
-  linkedin: "linkedin.com/in/janesmith"
-  portfolio_url: "https://janesmith.dev"
-  github: "github.com/janesmith"
-  twitter: "https://x.com/janesmith"
-  # (Optional) Canva resume design ID for visual CV generation via /career-ops pdf.
-  # Find it in your Canva design URL: https://www.canva.com/design/DAxxxxxxx/...
-  # The ID starts with "D" and is 11 characters long.
-  # canva_resume_design_id: "DAxxxxxxxxx"
+  full_name: "Vinicius da Silva Peixoto"
+  email: "peixoto.vsp@gmail.com"
+  phone: "+5521999884541"
+  location: "Rio de Janeiro, RJ, Brasil"
+  linkedin: "https://www.linkedin.com/in/viniciusspeixoto"
+  portfolio_url: "https://www.linkedin.com/in/viniciusspeixoto/"
+  github: "https://github.com/masterconsult"
 
 target_roles:
-  # Your North Star roles — what you're optimizing for
   primary:
-    - "Senior AI Engineer"
-    - "Staff ML Engineer"
-  # Archetypes help the evaluation system score fit
+    - "Engenheiro de Dados"
+    - "Data & Automation Engineer"
   archetypes:
-    - name: "AI/ML Engineer"
-      level: "Senior/Staff"
-      fit: "primary"        # primary = dream role, secondary = good fit, adjacent = stretch
-    - name: "AI Product Manager"
-      level: "Senior"
+    - name: "Data Engineer"
+      level: "Mid-Senior"
+      fit: "primary"
+    - name: "Automation Engineer"
+      level: "Mid-Senior"
+      fit: "primary"
+    - name: "Technical Project Manager"
+      level: "Mid-Senior"
       fit: "secondary"
-    - name: "Solutions Architect"
+    - name: "Solutions Engineer"
       level: "Mid-Senior"
       fit: "adjacent"
 
 narrative:
-  # Your professional headline (1 line)
-  headline: "ML Engineer turned AI product builder"
-  # Your exit story — what makes you unique
-  exit_story: "Built and sold my SaaS after 5 years. Now focused on applied AI at scale."
-  # Your top 3-5 superpowers
+  headline: "Engenheiro de Produção | Dados & Automação | Integração de Sistemas | IA aplicada a Negócios"
+  
+  exit_story: >
+    Engenheiro de Produção com atuação em transformação digital, especializado em automação de processos,
+    integração de sistemas e aplicação de dados e IA para eficiência operacional. Atua construindo soluções
+    que reduzem esforço manual, aumentam produtividade e melhoram a tomada de decisão.
+
   superpowers:
-    - "End-to-end ML pipelines"
-    - "Fast prototyping (idea to prod in 2 weeks)"
-    - "Cross-functional communication"
-  # Proof points — projects, articles, case studies with measurable impact
+    - "Automação de processos com impacto real no negócio"
+    - "Integração de sistemas (CRM, ERP, jurídico)"
+    - "Tradução de problemas operacionais em soluções técnicas"
+    - "Construção de sistemas com dados, APIs e IA"
+  
   proof_points:
-    - name: "Project Alpha"
-      url: "https://janesmith.dev/project-alpha"
-      hero_metric: "Reduced inference latency 40%"
-    - name: "Open Source Tool"
-      url: "https://github.com/janesmith/tool"
-      hero_metric: "2K+ GitHub stars"
-  # Optional: dashboard/demo URL with credentials
-  # dashboard:
-  #   url: "https://janesmith.dev/demo"
-  #   password: "demo-2026"
+    - name: "Automação do fluxo comercial"
+      url: ""
+      hero_metric: "Automação de ~80% do processo comercial"
+    
+    - name: "SDR com IA"
+      url: ""
+      hero_metric: "Classificação automática de leads e criação de oportunidades no CRM"
+    
+    - name: "Otimização do processo jurídico"
+      url: ""
+      hero_metric: "Redução de 30% do esforço operacional"
+    
+    - name: "Integração de sistemas (CRM, ERP, jurídico)"
+      url: ""
+      hero_metric: "Redução de custos operacionais (~R$3.000/mês)"
 
 compensation:
-  target_range: "$150K-200K"     # Your target total comp
-  currency: "USD"
-  minimum: "$120K"               # Walk-away number
-  location_flexibility: "Remote preferred, 1 week/month on-site possible"
+  target_range: "R$10.000 - R$18.000"
+  currency: "BRL"
+  minimum: "R$8.000"
+  location_flexibility: "Remoto preferencial, disponível para modelo híbrido"
 
 location:
-  country: "United States"
-  city: "San Francisco"
-  timezone: "PST"
-  visa_status: "No sponsorship needed"
-  # For remote roles outside your country:
-  # onsite_availability: "1 week/month in any city"
+  country: "Brasil"
+  city: "Rio de Janeiro"
+  timezone: "BRT"
+  visa_status: "Não requer visto"
